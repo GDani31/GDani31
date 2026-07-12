@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="200" viewBox="0 0 830 200" role="img" aria-label="Dani Daoud — Software and AI Engineer">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1a241f" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="830" height="200" fill="#0b100e"/>
+  <rect width="830" height="200" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="829" height="199" fill="none" stroke="#22302a"/>
+
+  <!-- title block -->
+  <line x1="0" y1="30" x2="830" y2="30" stroke="#22302a"/>
+  <line x1="140" y1="0" x2="140" y2="30" stroke="#22302a"/>
+  <line x1="610" y1="0" x2="610" y2="30" stroke="#22302a"/>
+  <text x="16" y="20" font-family="monospace" font-size="11" letter-spacing="2" fill="#e9efea">DANI DAOUD</text>
+  <text x="156" y="20" font-family="monospace" font-size="11" letter-spacing="2" fill="#93a79b">SOFTWARE &amp; AI ENGINEER — VIENNA, AT</text>
+  <circle cx="628" cy="15" r="4" fill="#f0a64e">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="642" y="20" font-family="monospace" font-size="11" letter-spacing="1" fill="#f0a64e">OPEN TO PROBLEMS</text>
+
+  <!-- left traces -->
+  <path id="t1" d="M 0 70 H 90 L 120 100 H 200" fill="none" stroke="#3a2a1c" stroke-width="2"/>
+  <path id="t2" d="M 0 130 H 70 L 110 170 H 230" fill="none" stroke="#1c3a35" stroke-width="2"/>
+  <path id="t3" d="M 0 165 H 150 L 175 140 H 215" fill="none" stroke="#2a231c" stroke-width="2"/>
+  <circle cx="200" cy="100" r="4" fill="none" stroke="#d98a4f" stroke-width="2"/>
+  <circle cx="230" cy="170" r="4" fill="none" stroke="#56d2c2" stroke-width="2"/>
+  <circle cx="215" cy="140" r="3" fill="#8a5731"/>
+
+  <!-- right traces -->
+  <path id="t4" d="M 830 75 H 740 L 705 110 H 630" fill="none" stroke="#1c3a35" stroke-width="2"/>
+  <path id="t5" d="M 830 145 H 760 L 720 175 H 600" fill="none" stroke="#3a2a1c" stroke-width="2"/>
+  <circle cx="630" cy="110" r="4" fill="none" stroke="#56d2c2" stroke-width="2"/>
+  <circle cx="600" cy="175" r="4" fill="none" stroke="#d98a4f" stroke-width="2"/>
+
+  <!-- packets -->
+  <circle r="3" fill="#f0a64e">
+    <animateMotion dur="3.2s" repeatCount="indefinite" rotate="0">
+      <mpath href="#t1"/>
+    </animateMotion>
+  </circle>
+  <circle r="3" fill="#56d2c2">
+    <animateMotion dur="2.4s" repeatCount="indefinite" begin="0.6s">
+      <mpath href="#t2"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#56d2c2">
+    <animateMotion dur="2.8s" repeatCount="indefinite" begin="1.1s">
+      <mpath href="#t4"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#f0a64e">
+    <animateMotion dur="3.6s" repeatCount="indefinite" begin="0.3s">
+      <mpath href="#t5"/>
+    </animateMotion>
+  </circle>
+
+  <!-- name -->
+  <text x="415" y="118" text-anchor="middle" font-family="monospace" font-size="46" font-weight="bold" letter-spacing="8" fill="#e9efea">DANI DAOUD</text>
+  <text x="415" y="150" text-anchor="middle" font-family="monospace" font-size="13" letter-spacing="3" fill="#93a79b">
+    <tspan fill="#d98a4f">silicon</tspan> → embedded → RF → infra → <tspan fill="#56d2c2">AI</tspan>
+  </text>
+
+  <!-- legend -->
+  <line x1="320" y1="178" x2="338" y2="178" stroke="#f0a64e" stroke-width="2"/>
+  <text x="344" y="182" font-family="monospace" font-size="9" fill="#93a79b">control plane</text>
+  <line x1="442" y1="178" x2="460" y2="178" stroke="#56d2c2" stroke-width="2"/>
+  <text x="466" y="182" font-family="monospace" font-size="9" fill="#93a79b">data plane</text>
+</svg>
