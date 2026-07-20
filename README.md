@@ -24,6 +24,7 @@ Operating location ..... Vienna, AT
 | M2 | **Humanoid teleop robot** | Tendon-driven hands, stereo vision, Quest 3 teleoperation, MoE action-tokenization for behavioral cloning |
 | M3 | **Custom CPU → ASIC** | 8-bit RISC CPU from scratch, taped out on SKY130 via TinyTapeout |
 | M7 | **From-scratch builds in C** | NES emulator, CHIP-8, mini GPT, neural net — no libraries, no magic |
+| M13 | **Factorio in 3D** | Native 3D renderer injected into Factorio — reverse-engineered the game binary, a Rust DLL hooks engine functions by PDB symbol name and renders the world in real time through custom HLSL/Direct3D shaders |
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=GDani31&show_icons=true&hide_border=true&bg_color=0b100e&text_color=93a79b&title_color=d98a4f&icon_color=56d2c2&hide_title=false" alt="GitHub stats" height="165">
